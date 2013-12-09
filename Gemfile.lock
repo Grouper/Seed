@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    bootstrap-sass (3.0.3.0)
+      sass (~> 3.2)
     celluloid (0.15.2)
       timers (~> 1.1.0)
     coderay (1.1.0)
@@ -81,6 +83,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (~> 3.0.3.0)
   guard
   guard-livereload
   haml
