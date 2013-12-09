@@ -1,4 +1,4 @@
-guard 'livereload' do
+guard 'livereload', port: 35730 do
   watch(%r{^app\.rb})
   watch(%r{views/.+\.(erb|haml|slim)$})
   watch(%r{helpers/.+\.rb})
