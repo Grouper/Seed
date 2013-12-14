@@ -13,6 +13,11 @@ Run with
     bundle exec rackup
 
 ### Developing
+
 To automatically reload pages when you make changes to its source code, run in a seperate console:
 
     bundle exec guard
+
+### Deploying
+
+Deploy to heroku, if you expect heavy traffic, we recommend cloudflare
