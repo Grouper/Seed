@@ -6,6 +6,6 @@ gem 'bootstrap-sass', '~> 3.0.3.0'
 
 group :development do
   gem 'guard'
-  gem 'guard-livereload', require: false
-  gem 'rack-livereload', require: false
+  gem 'guard-livereload'
+  gem 'rack-livereload'
 end
